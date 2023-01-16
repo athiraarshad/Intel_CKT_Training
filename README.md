@@ -20,7 +20,7 @@
   
   ![image](https://user-images.githubusercontent.com/122186991/212478650-40506d24-266b-4382-9968-a343234c3cae.png)
   
-  *The central part of the chip is called die
+  * The central part of the chip is called die
   * Evolution of packaged chip 
   
   ![image](https://user-images.githubusercontent.com/122186991/212478776-d4e8e7b9-f636-416c-a0a1-4763cd70c36a.png)
@@ -267,7 +267,7 @@
 
  <Details>
  <summary>Lab</summary>
- 
+[ https://drive.google.com/drive/my-drive](https://drive.google.com/file/d/12-B5kpUTECEOmEQT6COLPabNwM5SaVZY/view?usp=sharing)
 
 </details>
  
@@ -394,10 +394,21 @@
  
 ### Theory ###
  
- **Disadvatage of Submicron CMOS**  
- Isolation of the transsistor using reverse bias pn junction is limiting the transistor size and becomes impractical
-  ![image](https://user-images.githubusercontent.com/122186991/212532020-3d778d6c-f45a-4fd2-b7c4-d718eb05c196.png)
+ **Metal Oxide Semiconductor (MOS) Device Structure**  
+ * Differences betweeen MOS & MOM Capacitor 
+ ![image](https://user-images.githubusercontent.com/122186991/212534757-9abcb04f-b5a2-4074-b67c-670b775c0754.png)
+
+ * **MOS Device Structure & Fabrication**
+  * Fabrication
+      1. Oxidation: process to create SiO2 on top of Silicon.
+      2. Metallization: process to deposit poly-silicon on top of SiO2.
+  * Device Structure
+      1. Gate and substrate are different material so there is a contact potential between them. This expressed as metal to semiconductor work function (ϕms)
+      2. Interface: between SiO2 and silicon
  
+ * **Ideal MOS Junction or Capacitor**
+ ![image](https://user-images.githubusercontent.com/122186991/212537286-c6937e08-382e-44d0-8118-448b1475ab24.png)
+
  **Local Oxidation of Silicon (LOCOS) Isolation Process**  
    * Local Oxidation of Silicon is the traditional isolation technique used in submicron processes.
         1. A very thin layer silicon dioxide is grown on the wafer, called as pad oxide. Then a layer of silicon nitride is deposited which is used as an oxide barrier
