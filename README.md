@@ -384,7 +384,7 @@
  <summary>Lab</summary>
   
 ## Lab ##
- 
+ https://drive.google.com/file/d/1KoLOxp5HeDgeUpvJn98KI6I0MvujUVzT/view?usp=sharing
  </Details>
 
 ## Day 4
@@ -408,103 +408,37 @@
  
  * **Ideal MOS Junction or Capacitor**
  ![image](https://user-images.githubusercontent.com/122186991/212537286-c6937e08-382e-44d0-8118-448b1475ab24.png)
-
- **Local Oxidation of Silicon (LOCOS) Isolation Process**  
-   * Local Oxidation of Silicon is the traditional isolation technique used in submicron processes.
-        1. A very thin layer silicon dioxide is grown on the wafer, called as pad oxide. Then a layer of silicon nitride is deposited which is used as an oxide barrier
-        2. Then photolithography is done to pattern and etch the nitride and pad oxide where the thick oxide will be grown  
-        3. Then by thermal oxidation process thick oxide is grown in the exposed area.  
-        4. The last step is the removal of the silicon nitride layer.  
-        ![image](https://user-images.githubusercontent.com/122186991/212532069-5d51f6ff-35b5-469e-8954-27a4049e4be8.png)
  
-    * Limitation: the bird’s beak effect and the surface area which is lost to this encroachment
-    * Advantages: is simple process flow and high oxide quality because the whole LOCOS structure is thermally grown
-        
- **Sallow Trench Isolation (STI) Technology**
- * Shallow trench isolation (STI) allows closer spacing of transistors by eliminating the depletion region at the surface and Bird’s beak effect due to LOCOS process.
- * Sallow Trench Isolation (STI) isolation process is the preferred isolation process for deep-submicron process because it completely avoids Bird’s beak shape characteristics.
-        a. Cover the wafer with pad oxide and silicon nitride.
-        b. First etch nitride and pad oxide. Next, an anisotropic etch is made in the silicon to a depth of 0.4 to 0.5 microns.
-        c. Grow a thin thermal oxide layer on the trench walls
-        d. A CVD dielectric film is used to fill the trench
-        e. A chemical mechanical polishing (CMP) step is used to polish back the dielectric layer until the nitride is reached. The nitride acts like a CMP stop layer.
-        f. Densify the dielectric material at 900°C and strip the nitride and pad oxide.
-        ![image](https://user-images.githubusercontent.com/121994033/212125269-d0d9beb3-d8e9-4408-9cd4-bd2e915f50c6.png)
+ * **Case 1: Accumulation Mode of Operation**
 
-  * STI is more suitable for the increased density in a small area because it allows forming smaller isolation regions.
-  * The disadvantage is larger number of process steps.
-        
- **Deep Submicron (DSM) CMOS Technology other uses**
-  *Illustration of DSM Technology: 
-  ![image](https://user-images.githubusercontent.com/122186991/212532178-9a54666b-c4de-4501-9b3c-e8f9991cabd9.png)
+ ![image](https://user-images.githubusercontent.com/122186991/212747607-d7ac3ac9-e52c-468c-9b27-e80bc447a616.png)
 
-   In addition to the NMOS and PMOS transistor, the DSM technology provides;
-   * A deep n-well that can be utilized to reduce substrate noise coupling.
-   * A MOS Varactor that can be used to make voltage controlled oscillators (VCOs).
-   * Different kind of resistors like:
-    * Diffused and/or implanted resistors
-    * Well resistors
-    * Poly resistors
-    * Metal Resistors  
-   * At least 6 levels of metal that can form many useful structures such as inductors, capacitors, and transmission lines.
-     
-   **Different Types of Resistor in DSM CMOS Technology** 
-  ![image](https://user-images.githubusercontent.com/122186991/212532303-d91dce1e-a5f5-48d4-a55a-9a6808236b4b.png)
-  
-  **Different Types of Capacitor in DSM CMOS Technology** 
-  ![image](https://user-images.githubusercontent.com/122186991/212532342-a36eebcd-92b5-4825-8ba1-8d0e8dc5b105.png)
+  * Accumulation mode is V < 0
+  * Accumulation is a process where it has p-type substrate, which means the substrate has holes as the majority carrier throughouts the substrate.
+  * Charge at the surface directly proportional to voltage
+ 
+  ![image](https://user-images.githubusercontent.com/122186991/212747656-e1189e92-9b19-43ff-8a19-448ab5d6fc13.png)
 
-   **Typical Deep Submicron (DSM) CMOS Fabrication Process**  
-     Major Fabrication Steps for a DSM CMOS Process  
-      1) p and n wells  
-      2) Shallow trench isolation  
-      3) Threshold shift and anti-punch through implants  
-      4) Thin oxide and gate polysilicon  
-      5) Lightly doped drains and sources  
-      6) Sidewall spacer  
-      7) Heavily doped drains and sources  
-      8) Siliciding (Salicide and Polycide)  
-      9) Bottom metal, tungsten plugs, and oxide  
-      10) Higher level metals, tungsten plugs/vias, and oxide  
-      11) Top level metal, vias and protective oxide   
+* **Case 2: Depletion Mode of Operation**
+![image](https://user-images.githubusercontent.com/122186991/212747949-e047edb4-2693-4f72-83a5-e41585abbae2.png)
 
-**Summary of Deep Submicron (DSM) CMOS Fabrication Process**    
-   * DSM technology typically has a minimum channel length between 0.35μm and 0.1μm  
-   * DSM technology addresses the problem of excessive depletion region widths in junction isolation techniques by using shallow trench isolation  
-   * DSM technology may have from 4 to 8 levels of metal  
-   * Lightly doped drains and sources are a key aspect of DSM technology  
-        
-**Ultra Deep Submicron (UDSM) CMOS Technology**
- * Minimum length is less than 0.1 microns
- * Minimum feature size less than 100 nanometers
- * 22 nm drawn length
- * 5 nm lateral diffusion (12 nm gate length)
- * 1 nm transistor gate oxide
- * 8 layers of copper interconnect
- * Specialized processing is used to increase drive capability and maintain low off currents
-        
-**Advantage of UDSM CMOS Technology**
- * Digital Viewpoint:
-   * Improved Ion/Ioff
-   * Reduced gate capacitance
-   * Higher drive current capability
-   * Reduced interconnect density
-   * Reduction of active power
-        
- * Analog Viewpoint:
-   * More levels of metal
-   * Higher cutoff frequency
-   * Higher capacitance density
-   * Reduced junction capacitance per transconductance
-   * More speed
-        
-**Disadvantage of UDSM CMOS Technology**
- * Analog Viewpoint:
-   * Reduction in power supply resulting in reduced headroom
-   * Gate leakage currents
-   * Reduced small signal intrinsic gain
-   * Increased nonlinearity
-   * Increased noise and poorer matching
+  * Depletion mode is  0 < V < VT
+  * The semiconductor surface starts to deplete and the type of charge at the surface is –ve (due to acceptor ions) and gradually increase with the increase of voltage.
+  *  The voltage at which the surface carrier concentration is exactly equal to bulk carrier concentration, is called weak inversion voltage and form this point the weak inversion started.
+  *  Charge at the surface directly proportional to voltage.
+  *  The voltage at which the surface concentration exactly equal to the bulk concentration, that is called threshold voltage.
+  *  This is called inversion point and at this point depletion mode ends and strong inversion started.
+
+* **Case 3: Strong Inversion Mode of Operation**
+![image](https://user-images.githubusercontent.com/122186991/212748534-f990c3aa-25c5-4d26-8363-3a99df83c1ce.png)
+
+  * Strong inversion mode is V ≥ VT
+  * At threshold voltage a channel form at the surface of the semiconductor due to inversion charges.
+  * Before threshold voltage the charge comes from negatively charged ionized acceptors.
+  * After threshold voltage, the more charge comes from the electrons rather than depleting the holes.
+  *  The extra negative charge required for the semiconductor is comes from the mobile electrons which are very close to the surface.
+                           
+
 </details>
 
  <details>
